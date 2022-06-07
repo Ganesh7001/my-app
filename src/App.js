@@ -32,7 +32,7 @@ function App() {
         {/* <div style={{height:"30%",background:"yellow"}}><Test5/></div>
         <div style={{height:"20%",width:"50%",background:"pink"}}><Test6/></div> */}
         {/* <div><Reuse/></div> */}
-          <h1>Redux thunk</h1>
+          <h1>Redux thunk example</h1>
         {loading ? <h2>Loading...</h2> : error ? <h2>{error}</h2> : 
           <User users={users}/>
         }
