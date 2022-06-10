@@ -8,6 +8,12 @@ body {
   
 }
 
+@media screen and (min-width:700px) and (max-width:1000px){
+  div{
+       background:rgb(46, 150, 163) ;
+      } 
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

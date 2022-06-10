@@ -1,0 +1,33 @@
+.header{
+    width:1362px;
+    height: 60px;
+    background-color: aquamarine;
+    text-align: center;
+    padding: 10px;
+    font-weight: bolder;
+    font-style: oblique;
+    font-size: larger;
+    display: inline-block;
+    text-align: right;
+   
+}
+
+.header span {
+  padding:0px;
+  margin:20px;
+
+  
+}
+
+.header :nth-child(5){
+  margin:0%
+}
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}

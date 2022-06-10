@@ -1,17 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import store from './store';
+import store from './Redux/store';
 import { Provider } from 'react-redux';
 import './index.css';
 import App from './App';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
+root.render( <div>
 <Provider store={store}>
 <App />
-</Provider>
-     
+ </Provider>
+     </div>
   
 );
 

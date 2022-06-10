@@ -1,0 +1,19 @@
+.card{
+    height: 500px;
+}
+
+.test{
+    padding:10px;
+    margin:0px;
+    float: right;
+}
+
+.test:hover{
+    background-color: yellow;
+    margin-top: 0px;
+}
+
+.test1{
+  padding:20px
+    
+}
